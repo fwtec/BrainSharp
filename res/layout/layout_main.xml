@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChartActivity" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:gravity="center"
+        android:background="#f2bc28"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:text="脑筋急转弯" />
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:layout_marginTop="15dp"
+        android:dividerHeight="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:scrollbarStyle="outsideOverlay" >
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#f2bc28"
+        >
+        
+        
+        <TextView 
+            android:id="@+id/home_add_app_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_title"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+        
+        <Button 
+            android:id="@+id/home_add_app_btn_f"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="@string/confirm_btn"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="10dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/title_right_corners_selector"
+            />
+
+        <Button
+            android:id="@+id/Button_left_cang"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_alignBaseline="@+id/home_add_app_tv"
+            android:layout_alignBottom="@+id/home_add_app_tv"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/title_right_corners_selector"
+            android:padding="10dip"
+            android:text="@string/confirm_shoucang"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+        
+    </RelativeLayout>
+    
+    <ListView 
+        android:id="@+id/home_add_app_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#d8d8d8"
+        android:dividerHeight="1px"
+        ></ListView>
+    
+
+</LinearLayout>

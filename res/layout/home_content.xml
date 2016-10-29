@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#f2bc28"
+        >
+        
+        <TextView 
+            android:id="@+id/content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+        
+        <Button 
+            android:id="@+id/content_shoucang_app"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="@string/confirm_shoucang"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="10dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/title_right_corners_selector"
+            />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="55dp"
+	    android:orientation="vertical" >
+        
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="120dp"
+             android:orientation="horizontal"
+              >
+
+             <Button
+                 android:id="@+id/fuzhi"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn_copy"
+                 />
+             <Button
+                 android:id="@+id/fenxiang"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/btn_share"
+                  />
+
+             <Button
+                 android:id="@+id/btn_daan"
+                 android:layout_width="wrap_content"
+                 android:layout_height="80dp"
+                 android:layout_marginLeft="10dp"
+                 android:textSize="20sp"
+                 android:gravity="center|center_horizontal|center_vertical" 
+                 android:background="@drawable/btn_answer"
+                 android:text="查看答案" />
+             
+	    </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="285dp"
+             android:orientation="horizontal"
+             android:paddingTop="45dp" >
+
+             <Button
+                 android:id="@+id/btn_left"
+                 android:layout_width="60dp"
+                 android:layout_height="90dp"
+                 android:background="@drawable/btn_left" />
+
+             <TextView
+                 android:id="@+id/btn_content"
+                 android:layout_width="wrap_content"
+                 android:layout_height="181dp"
+                 android:layout_weight="0.52"
+                 android:text="@string/add_title"
+                 android:gravity="center|center_horizontal|center_vertical" 
+                 android:textSize="20sp" />
+
+             <Button
+                 android:id="@+id/btn_right"
+                 android:layout_width="60dp"
+                 android:layout_height="90dp"
+                 android:background="@drawable/btn_next" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+    
+     <RelativeLayout
+        android:id="@+id/offersBannerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    </RelativeLayout>
+
+</RelativeLayout>

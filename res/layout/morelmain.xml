@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dhs"
+    tools:context=".MainActivity" >
+
+     <LinearLayout
+         android:id="@+id/lineralay"
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal" >
+
+         <LinearLayout
+             android:id="@+id/adLayout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="8dp"
+                 android:gravity="center"
+                 android:text="脑筋急转弯2014"
+                 android:textSize="22dp" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center"
+                 android:textSize="22dp"
+                 android:text="脑筋急转弯（完整数据版），集成海量题目，内容丰富、形式多样，直接离线访问，无流量产生，趣味盎然，老少皆宜，通过阅读可以锻炼你从多角度思考问题，认识世界的能力，也可以帮助你破除固有思维，培养灵活多变的思维方式。每次刷新随机生成题目，还包含笑话专辑，思考之余轻松一下。"
+                 />
+
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center"
+                 android:text="版本2.0"
+                 android:textSize="22dp" />
+         </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

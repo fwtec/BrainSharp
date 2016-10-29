@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">脑筋急转弯2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_tv">GridView动态添加删除</string>
+    <string name="add_title">脑筋急转弯</string>
+    <string name="confirm_btn">更多</string>
+    <string name="confirm_shoucang">收藏</string>
+    
+     <string name="Description">Description</string>
+     
+        <string name="exit">退出</string>
+    <string name="exit_app">你确定退出QQ?</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    
+    <color name="dhs">#DDDD52</color>
+</resources>
